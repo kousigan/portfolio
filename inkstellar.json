@@ -7,6 +7,6 @@
     { "name":"Project 3", "image":"image3.jpg", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna." },
     { "name":"Project 4", "image":"image4.jpg", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna." },
     { "name":"Project 5", "image":"image5.jpg", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna." },
-    { "name":"Project 6", "image":"image6.jpg", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna." },
+    { "name":"Project 6", "image":"image6.jpg", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna." }
   ]
  } 
