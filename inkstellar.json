@@ -2,7 +2,7 @@
   "name":"John",
   "age":30,
   "cars": [
-   { "name":"Ford", "image":"image1.jpg", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna." },
+   { "name":"Kousigan", "image":"image1.jpg", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna." },
     { "name":"Project 2", "image":"image2.jpg", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna." },
     { "name":"Project 3", "image":"image3.jpg", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna." },
     { "name":"Project 4", "image":"image4.jpg", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna." },
