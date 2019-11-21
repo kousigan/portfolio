@@ -1,3 +1,9 @@
 .modal-header.text-justify.d-xl-flex {
 }
 
+.portfolio-navbar.navbar {
+  background: #EECDA3;
+  background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);
+  background: linear-gradient(to right,#EF629F,    #EECDA3);
+  background-color: rgba(0, 0, 0, 0);
+}
