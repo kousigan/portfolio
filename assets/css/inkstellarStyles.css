@@ -15,3 +15,9 @@
 .special-skill-item .icon {
     background-color: #EF629F;
 }
+.modal-image {
+    margin-bottom: 20px;
+}
+.modal-footer{
+  display:none;
+}
