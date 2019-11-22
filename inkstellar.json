@@ -2,7 +2,7 @@
   "name":"John",
   "age":30,
   "cars": [
-   { "name":"Kousigan", "image":"image1.jpg", "content":"## Welcome to GitHub Pages                     <a class="btn btn-link btn-sm float-right" role="button" href="behance.com/inkstellar" target="_blank"><i class="fab fa-behance"></i></a>" },
+   { "name":"Kousigan", "image":"image1.jpg", "content":"## Welcome to GitHub Pages <a class='btn btn-link btn-sm float-right' role='button' href='behance.com/inkstellar' target='_blank'><i class='fab fa-behance'></i></a>" },
     { "name":"Project 2", "image":"image2.jpg", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna." },
     { "name":"Project 3", "image":"image3.jpg", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna." },
     { "name":"Project 4", "image":"image4.jpg", "content":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna." },
