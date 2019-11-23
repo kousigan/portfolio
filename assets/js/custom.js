@@ -6,11 +6,12 @@ function getData(){
             let galleryItem =`
             <div class="col-md-6 col-lg-4 itemContainer">
             <div class="card border-0">
-            <a href="#">
-                <img class="card-img-top scale-on-hover" src="https://kousigan.github.io/portfolio/assets/img/Thumbnails/${data.projects[i].image}" alt="${data.projects[i].image}" data-toggle="modal" data-target="#test" />
-            </a>
+            
             <div class="card-body">
             <h6><a href="#"> ${data.projects[i].name} </a></h6>
+<a href="#">
+                <img class="card-img-top scale-on-hover" src="https://kousigan.github.io/portfolio/assets/img/Thumbnails/${data.projects[i].image}" alt="${data.projects[i].image}" data-toggle="modal" data-target="#test" />
+            </a>
         </div>
     </div>
 </div>`;
