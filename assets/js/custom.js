@@ -61,10 +61,12 @@ function resetData(){
               for(var i=0;i<jData.length;i++){
                   let t1 = temp.toString().trim();
                   let t2 = jData[i].name.toString().trim();
+                  let t2Image = jData[i].image.toString().trim();
                   var t3 = t1.localeCompare(t2);
                       if(t3==0){
                       var titleText = jData[i].content;            
-                    $(".mypanel").html(titleText);
+                        $(".mypanel").html(titleText);
+                        $(".mypanel img").attr("src") = "https://kousigan.github.io/portfolio/assets/img/Thumbnails/"+t2Image;
                      break;
                 }
             }
