@@ -23,7 +23,7 @@
     "content":"A concept app for a online food store built using angular. The link to the project is on behance. <a class='btn btn-link btn-sm float-right' role='button' href='https://www.behance.net/gallery/76436981/The-Food-Shop' target='_blank'><i class='fab fa-behance'></i></a>" 
    }  ,
     { 
-    "name":"Image Search application, 
+    "name":"Image Search application", 
     "image":"image-search.png", 
     "content":"A concept app for a image search built using Angular and Pixabay api. The link to the project is on behance. <a class='btn btn-link btn-sm float-right' role='button' href='https://www.behance.net/gallery/76435889/Photo-app-built-using-Angular' target='_blank'><i class='fab fa-behance'></i></a>" 
    }
