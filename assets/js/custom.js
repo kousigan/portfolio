@@ -66,7 +66,7 @@ function resetData(){
                       if(t3==0){
                       var titleText = jData[i].content;            
                         $(".mypanel").html(titleText);
-                        $(".mypanel img").attr("src") = "https://kousigan.github.io/portfolio/assets/img/Thumbnails/"+t2Image;
+                        $(".mypanel+img").attr("src") = "https://kousigan.github.io/portfolio/assets/img/Thumbnails/"+t2Image;
                      break;
                 }
             }
