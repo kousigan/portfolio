@@ -4,7 +4,7 @@ function getData(){
         jData=data.projects;
         for(i=0;i<data.projects.length;i++){
             let galleryItem =`
-            <div class="col-md-6 col-lg-4 itemContainer">
+            <div class="itemContainer">
             <div class="card border-0">
             
             <div class="card-body">
