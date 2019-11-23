@@ -36,8 +36,8 @@ var temp;
 $(document).on('click',function(e){
         if ($(e.target).is('.itemContainer img ')) {
              e.preventDefault();
-            temp = $(e.target.parentNode.parentNode.parentNode).find('h6 a').html();
-            $(".inktitle").html(temp);
+           // temp = $(e.target.parentNode.parentNode.parentNode).find('h6 a').html();
+            //$(".inktitle").html(temp);
             } 
          
         
