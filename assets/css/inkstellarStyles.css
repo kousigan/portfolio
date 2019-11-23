@@ -21,3 +21,27 @@
 .modal-footer{
   display:none;
 }
+.gallery{
+  display:inline-block;
+ 
+}
+@media only screen and (min-width: 320px) {  
+  .gallery {
+    columns: 1;
+  }
+}
+@media only screen and (min-width: 768px) {  
+  .gallery {
+    columns: 2;
+  }
+}
+@media only screen and  (min-width: 1024px) {  
+  .gallery {
+    columns: 3;
+  }
+}
+@media only screen and (min-width: 1366px) {
+  .gallery {
+    columns: 4;
+  }
+}
