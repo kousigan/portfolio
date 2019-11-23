@@ -4,7 +4,7 @@
   "projects": [
    { 
     "name":"IRCTC Redesign", 
-    "image":"thumbnails/IRCTC-redesign.jpg", 
+    "image":"IRCTC-redesign.jpg", 
     "content":"This is a redesign prototype of IRCTC. The purpose is to make ticket booking easier and more elite. <a class='btn btn-link btn-sm float-right' role='button' href='http://www.behance.com/inkstellar' target='_blank'><i class='fab fa-behance'></i></a>" 
    }
   ]
