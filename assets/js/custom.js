@@ -56,5 +56,5 @@ $(document).on('click',function(e){
  })
  
 $(document).on('ready',function(){
-   alert(); 
+   alert();
 });
