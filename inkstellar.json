@@ -16,6 +16,11 @@
     "name":"Deep Sea", 
     "image":"Deep-Sea.png", 
     "content":"A concept app mockup for a Sea creatures reference. <a class='btn btn-link btn-sm float-right' role='button' href='https://www.behance.net/gallery/86951207/Deep-Sea' target='_blank'><i class='fab fa-behance'></i></a>" 
-   } 
+   } ,
+    { 
+    "name":"The Food Shop", 
+    "image":"the-food-shop.png", 
+    "content":"A concept app for a online food store built using angular. The link to the project is on behance. <a class='btn btn-link btn-sm float-right' role='button' href='https://www.behance.net/gallery/86951207/Deep-Sea' target='_blank'><i class='fab fa-behance'></i></a>" 
+   }  
   ]
  } 
