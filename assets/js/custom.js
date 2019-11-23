@@ -4,14 +4,18 @@ function getData(){
         jData=data.projects;
         for(i=0;i<data.projects.length;i++){
             let galleryItem =`
-<div class="col-md-6 col-lg-4 itemContainer">
-    <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="https://kousigan.github.io/portfolio/sample/${data.projects[i].image}" alt="Card Image" data-toggle="modal" data-target="#test" /></a>
-        <div class="card-body">
+            <div class="col-md-6 col-lg-4 itemContainer">
+            <div class="card border-0">
+            <a href="#">
+                <img class="card-img-top scale-on-hover" src="https://kousigan.github.io/portfolio/sample/${data.projects[i].image}" alt="Card Image" data-toggle="modal" data-target="#test" />
+            </a>
+            <div class="card-body">
             <h6><a href="#"> ${data.projects[i].name} </a></h6>
-            <p class="text-muted card-text">${data.projects[i].content}</p>
         </div>
     </div>
 </div>`;
+//<p class="text-muted card-text">${data.projects[i].content}</p>
+
             $('.gallery').append(galleryItem);
  
         }
