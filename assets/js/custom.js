@@ -1,14 +1,14 @@
 var jData;
 function getData(){
     $.getJSON('https://kousigan.github.io/portfolio/inkstellar.json', function(data) { 
-        jData=data.cars;
-        for(i=0;i<data.cars.length;i++){
+        jData=data.projects;
+        for(i=0;i<data.projects.length;i++){
             let galleryItem =`
 <div class="col-md-6 col-lg-4 itemContainer">
     <div class="card border-0"><a href="#"><img class="card-img-top scale-on-hover" src="https://kousigan.github.io/portfolio/sample/${data.cars[i].image}" alt="Card Image" data-toggle="modal" data-target="#test" /></a>
         <div class="card-body">
-            <h6><a href="#"> ${data.cars[i].name} </a></h6>
-            <p class="text-muted card-text">${data.cars[i].content}</p>
+            <h6><a href="#"> ${data.projects[i].name} </a></h6>
+            <p class="text-muted card-text">${data.projects[i].content}</p>
         </div>
     </div>
 </div>`;
@@ -24,7 +24,7 @@ function getData(){
 
 function resetData(){
     $.getJSON('https://kousigan.github.io/portfolio/inkstellar.json', function(data) {
-        jData=data.cars;
+        jData=data.projects;
     });
 }
 
