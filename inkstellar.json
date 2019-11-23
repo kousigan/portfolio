@@ -3,9 +3,9 @@
   "age":30,
   "projects": [
    { 
-    "name":"Kousigan", 
-    "image":"image1.jpg", 
-    "content":"## Welcome to GitHub Pages <a class='btn btn-link btn-sm float-right' role='button' href='www.behance.com/inkstellar' target='_blank'><i class='fab fa-behance'></i></a>" 
+    "name":"IRCTC Redesign", 
+    "image":"thumbnails/IRCTC-redesign.jpg", 
+    "content":"This is a redesign prototype of IRCTC. The purpose is to make ticket booking easier and more elite. <a class='btn btn-link btn-sm float-right' role='button' href='http://www.behance.com/inkstellar' target='_blank'><i class='fab fa-behance'></i></a>" 
    }
   ]
  } 
