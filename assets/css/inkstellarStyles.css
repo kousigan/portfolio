@@ -40,11 +40,7 @@
     columns: 3;
   }
 }
-@media only screen and (min-width: 1366px) {
-  .gallery {
-    columns: 4;
-  }
-}
+ 
 .portfolio-block.projects-cards h6 {
     position: absolute;
     padding: 10px;
