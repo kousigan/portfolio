@@ -18,9 +18,7 @@ function getData(){
 //<p class="text-muted card-text">${data.projects[i].content}</p>
 
             $('.gallery').append(galleryItem);
- 
-        }
-          
+        }     
     });
  }
     
@@ -33,25 +31,9 @@ function resetData(){
     });
 }
 
-// 
-     // $('.card-img-top').on('click',function(e){
-         // e.preventDefault();
-        // let carId=$(this).parent().parent().find('h6 a').html();
-                // $('.inktitle').html(carId);
-          // console.log(this)
-        //      $.getJSON('https://kousigan.github.io/portfolio/inkstellar.json', function(data) {
-        //       for(i=0;i<data.cars.length;i++){
-        //         if (carId==data.cars[i].name){
-        //               var titleText = data.cars[i].content;        
-        //         }
-        //     }
-        //     $(".mypanel").html(titleText);
-        // });
-    // });
- var temp;
-    $(document).on('click',function(e){
-       
-        
+
+var temp;
+$(document).on('click',function(e){
         if ($(e.target).is('.itemContainer img ')) {
              e.preventDefault();
             temp = $(e.target.parentNode.parentNode.parentNode).find('h6 a').html();
@@ -70,7 +52,9 @@ function resetData(){
                         $(".modal-image").attr("src", "https://kousigan.github.io/portfolio/assets/img/Thumbnails/"+t2Image);
                      break;
                 }
-            }
-         
+            }  
  })
  
+$(document).on('ready',function(){
+   alert(); 
+});
