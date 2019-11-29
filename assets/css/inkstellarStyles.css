@@ -33,6 +33,10 @@
 .portfolio-block.projects-cards .card{
  margin:0; 
 }
+.portfolio-block.cv .group .organization a {
+    color: 
+#fff;
+
 @media only screen and (min-width: 320px) {  
   .gallery {
     columns: 1;
