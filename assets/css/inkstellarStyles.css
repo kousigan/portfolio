@@ -53,6 +53,7 @@
     position: absolute;
     padding: 10px;
     background: rgba(0,0,0,0.5);
+    z-index: 1;
 }
 .portfolio-block.projects-cards h6 a{
   color:#fff;
