@@ -1,6 +1,9 @@
 .modal-header.text-justify.d-xl-flex {
 }
-
+.portfolio-block.block-intro .avatar {
+ 
+    background-position: -2px 2px;
+}
 .portfolio-navbar.navbar {
   background: #EECDA3;
   background: -webkit-linear-gradient(to right, #EF629F, #EECDA3);
