@@ -37,7 +37,7 @@
     color: #fff;
 }
 .portfolio-block.block-intro{
-  background: url("assets/img/pfbg.png") 0 bottom / auto 650px no-repeat;
+  background: url("https://raw.githubusercontent.com/kousigan/portfolio/master/assets/img/pfbg.png") 0 bottom / auto 650px no-repeat;
   padding-left: 50%;
   text-align: left;
   padding-top: 200px;
@@ -46,6 +46,12 @@
   .gallery {
     columns: 1;
   }
+.portfolio-block.block-intro{
+    background-size: auto 500px;
+   padding-left: 50%;
+  text-align: left;
+  padding-top: 100px;
+}
 }
 @media only screen and (min-width: 768px) {  
   .gallery {
@@ -56,12 +62,9 @@
   .gallery {
     columns: 3;
   }
-  .portfolio-block.block-intro{
-  background: url("assets/img/pfbg.png") 0 bottom / auto 650px no-repeat;
-  padding-left: 50%;
-  text-align: left;
-  padding-top: 100px;
-}
+.portfolio-block.block-intro{
+    background-size: auto 650px;
+  }
 }
  
 .portfolio-block.projects-cards h6 {
