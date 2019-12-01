@@ -36,7 +36,12 @@
 .portfolio-block.cv .group .organization a {
     color: #fff;
 }
-
+.portfolio-block.block-intro{
+  background: url("assets/img/pfbg.png") 0 bottom / auto 650px no-repeat;
+  padding-left: 50%;
+  text-align: left;
+  padding-top: 200px;
+}
 @media only screen and (min-width: 320px) {  
   .gallery {
     columns: 1;
@@ -51,6 +56,12 @@
   .gallery {
     columns: 3;
   }
+  .portfolio-block.block-intro{
+  background: url("assets/img/pfbg.png") 0 bottom / auto 650px no-repeat;
+  padding-left: 50%;
+  text-align: left;
+  padding-top: 100px;
+}
 }
  
 .portfolio-block.projects-cards h6 {
@@ -62,3 +73,4 @@
 .portfolio-block.projects-cards h6 a{
   color:#fff;
 }
+
