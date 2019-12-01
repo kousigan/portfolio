@@ -1,5 +1,9 @@
 .modal-header.text-justify.d-xl-flex {
 }
+.portfolio-block.block-intro p{
+  background:rgba(255, 255, 255, 0.49);
+  padding: 10px;
+}
 .portfolio-block.block-intro .avatar {
  
     background-position: -2px 2px;
@@ -44,6 +48,7 @@
   padding-left: 50%;
   text-align: left;
   padding-top: 200px;
+  margin-bottom: 50px;
 }
 @media only screen and (min-width: 320px) {  
   .gallery {
@@ -67,6 +72,8 @@
   }
 .portfolio-block.block-intro{
     background-size: auto 650px;
+    background-size: cover;
+    background-position: 0 center;
   }
 }
  
