@@ -3,6 +3,11 @@
   "age":30,
   "projects": [
    { 
+    "name":"Travel App Concept", 
+    "image":"Travel-app.png", 
+    "content":"This is a concept design for a Vacation travel booking. <a class='btn btn-link btn-sm float-right' role='button' href='https://www.behance.net/gallery/89457809/My-Travel-App' target='_blank'><i class='fab fa-behance'></i></a>" 
+   },
+   { 
     "name":"IRCTC Redesign", 
     "image":"IRCTC-redesign.jpg", 
     "content":"This is a redesign prototype of IRCTC. The purpose is to make ticket booking easier and more elite. <a class='btn btn-link btn-sm float-right' role='button' href='https://www.behance.net/gallery/88372667/IRCTC-Redesign' target='_blank'><i class='fab fa-behance'></i></a>" 
