@@ -4,14 +4,16 @@ function getData(){
         jData=data.projects;
         for(i=0;i<data.projects.length;i++){
             let galleryItem =`
+
             <div class="itemContainer">
             <div class="card border-0">
             
             <div class="card-body">
-            <h6><a href="#"> ${data.projects[i].name} </a></h6>
+            
 <a href="#">
                 <img class="card-img-top scale-on-hover" src="https://kousigan.github.io/portfolio/assets/img/Thumbnails/${data.projects[i].image}" alt="${data.projects[i].image}" data-toggle="modal" data-target="#test" />
             </a>
+<h6>  ${data.projects[i].name}  </h6>
         </div>
     </div>
 </div>`;
@@ -34,9 +36,9 @@ function resetData(){
 
 var temp;
 $(document).on('click',function(e){
-        if ($(e.target).is('.itemContainer img ')) {
+        if ($(e.target).is('.itemContainer img')) {
              e.preventDefault();
-           temp = $(e.target.parentNode.parentNode.parentNode).find('h6 a').html();
+           temp = $(e.target.parentNode.parentNode.parentNode).find('h6').html();
             $(".inktitle").html(temp);
             } 
          
