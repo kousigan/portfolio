@@ -44,7 +44,7 @@
     color: #fff;
 }
 .portfolio-block.block-intro{
-  background: url("https://raw.githubusercontent.com/kousigan/portfolio/master/assets/img/pfbg.png") 0 bottom / auto 650px no-repeat;
+/*   background: url("https://raw.githubusercontent.com/kousigan/portfolio/master/assets/img/pfbg.png") 0 bottom / auto 650px no-repeat; */
   padding-left: 50%;
   text-align: left;
   padding-top: 200px;
