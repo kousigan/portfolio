@@ -93,4 +93,7 @@
   -webkit-text-fill-color: transparent;
   cursor: default;
 }
- 
+ .portfolio-block.projects-cards a {
+ color:#212529;
+ display: inline-block;
+}
