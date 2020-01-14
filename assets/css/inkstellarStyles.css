@@ -68,7 +68,7 @@
 }
 @media only screen and  (min-width: 1024px) {  
   .gallery {
-    columns: 3;
+/*     columns: 3; */
   }
 .portfolio-block.block-intro{
     background-size: auto 650px;
