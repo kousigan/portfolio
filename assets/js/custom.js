@@ -14,6 +14,7 @@ function getData(){
                 <img class="card-img-top scale-on-hover" src="https://kousigan.github.io/portfolio/assets/img/Thumbnails/${data.projects[i].image}" alt="${data.projects[i].image}" data-toggle="modal" data-target="#test" />
             </a>
 <h6>  ${data.projects[i].name}  </h6>
+<p>${data.projects[i].content}</p>
         </div>
     </div>
 </div>`;
