@@ -1,6 +1,6 @@
 var jData;
 function getData(){
-    $.getJSON('https://kousigan.github.io/portfolio/inkstellar.json', function(data) { 
+    $.getJSON('http://inkstellar.com/inkstellar.json', function(data) { 
         jData=data.projects;
         for(i=0;i<data.projects.length;i++){
             let galleryItem =`
