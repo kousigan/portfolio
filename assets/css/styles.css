@@ -150,12 +150,13 @@ section {
 }
 
 .timeline i {
-  text-indent: -35px;
+  text-indent: -61px;
+  text-align: center;
 }
 
 .timeline:before {
   content: "";
-  width: 2px;
+  width: 1pt;
   height: 100%;
   display: block;
   position: absolute;
