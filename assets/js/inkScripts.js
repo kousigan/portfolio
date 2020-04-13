@@ -8,7 +8,7 @@ $("[type=file]").on("change", function(){
       for(var i=0;i<this.files.length;i++){
     $(this).siblings('.fileList').append("<small class='files'>"+ this.files[i].name+"</small>");
       }
-      $(this).siblings('.fileList').append('<small style="color:#28a745;display:block">Total: '+ this.files.length+' files attached successfully !</small>')
+      $(this).siblings('.fileList').append('<small style="color:#28a745;display:block">Total: '+ this.files.length+' file(s) attached successfully !</small>')
   } else {
     $(this).siblings('.fileList').text(dflt);
   }
