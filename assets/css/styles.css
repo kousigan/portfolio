@@ -74,7 +74,7 @@ section {
 }
 
 .card {
-  /*width: 30%;*/
+  width: 100%;
   margin: 0 0 10px;
   display:inline-block;
   /*flex-direction: row;*/
@@ -84,6 +84,11 @@ section {
   width: 100%;
   /*height: 250px;*/
   object-fit: cover;
+}
+
+.card-body img.preloader {
+  width: 20%;
+  margin: 50px;
 }
 
 .card-body {
