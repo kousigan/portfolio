@@ -52,8 +52,15 @@ function onScroll(event){
       if( refElement.offsetTop - 50 <= scrollPos && ( refElement.offsetTop + refElement.offsetHeight - 50 > scrollPos)){
         document.querySelector('#navcol-1 ul li a').classList.remove('active');
         currLink.classList.add('active');
+        $('aside ul li a').removeClass('active');
+        $('aside ul li').removeClass('medium');
+         $('aside ul li a[href="'+val+'"]').addClass('active');
+         $('aside a.active').parent().prev().addClass('medium');
+         $('aside a.active').parent().next().addClass('medium');
+
       }else{
          currLink.classList.remove('active');
+         
        }
   }
   

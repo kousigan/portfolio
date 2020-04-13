@@ -275,6 +275,42 @@ html {
   color: rgb(211,49,120);
 }
 
+aside {
+  position: fixed;
+  right: 50px;
+  height: 100%;
+  display: grid;
+  align-content: center;
+  z-index: 2;
+}
+
+aside ul li{
+  list-style: none;
+}
+aside ul li a{
+  text-decoration: none !important;
+  color: #333;
+  text-align: center;
+  width: 20px;
+  display: inline-block;
+}
+aside ul li.medium a:before{
+  font-size: 12px;
+  opacity: 0.7;
+}
+aside ul li a:before{
+  font-family: Ionicons;
+  font-size: 8px;
+  content:"\f3a6";
+  opacity: 0.5;
+  transition: all 0.2s ease-in;
+}
+aside ul li a.active:before{
+    content:"\f360";
+    font-size: 14px;
+    opacity: 1;
+}
+
 @media (max-width: 992px) {
   .gallery {
     column-count: 2;
@@ -284,6 +320,9 @@ html {
 @media (max-width: 640px) {
   .gallery {
     column-count: 1;
+  }
+  aside{
+    display: none;
   }
 }
 
