@@ -76,7 +76,7 @@ ImageFunctions = {
     imgLoaded: function(img){
         console.log(this.status.loaded);
         console.log(img);
-        $(".preloader").hide();
+        $(this).find(".preloader").hide();
         
     },
 
