@@ -4,138 +4,116 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - Brand</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <title>Inkfolio_v2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
-    <link rel="stylesheet" href="assets/css/inkstellarStyles.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="index.html">Inkstellar</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navbarNav">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="cv.html">About me</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="hire-me.html">Hire me</a></li>
-                </ul>
+    <div class="d-flex" id="landingpage">
+        <div class="container-fluid landingPage" style="display: flex;height: 100vh;">
+            <div class="row" style="width: 100%;">
+                <div class="col-md-4 landingbg"><img src="assets/img/Mask%20Group%201@2x.png"></div>
+                <div class="col-md-8" id="header-main">
+                    <div class="header-section"><img class="logo" src="assets/img/Group%201021@2x.png" alt="Inkstellar">
+                        <p style="font-size: 20px;">Hello, I'm</p>
+                        <h1 class="mainhead" style="/*font-family: 'Roboto Condensed', sans-serif;*//*font-size: 130px;*//*letter-spacing: -5px;*//*font-weight: bold;*//*color: #C3DBDC;*//*text-indent: -8px;*/">KOUSIGAN</h1>
+                        <h4 class="subhead" style="/*font-family: 'Roboto Condensed', sans-serif;*//*color: rgba(146,146,146,0.52);*//*font-size: 30px;*/">UI/UX DESIGNER</h4>
+                    </div><a class="btn" role="button" style="align-self: center;" href="#identity"><i class="icon ion-android-arrow-down" data-bs-hover-animate="bounce"></i></a></div>
             </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-light navbar-expand-md">
+        <div class="container-fluid"><a class="navbar-brand" href="#"><img src="assets/img/Group%201021@2x.png"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#landingpage">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#identity">Identity</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#works">Works</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#resume">About</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+        </div>
         </div>
     </nav>
-    <main class="page lanidng-page">
-        <section class="portfolio-block block-intro">
-            <div class="container">
-                <div class="avatar" style="background-image: url(&quot;assets/img/avatars/inkjpeg.jpg&quot;);"></div>
-                <div class="about-me">
-                    <p>Hello! I'm <strong>Kousi</strong>. I work with UI and UX. Passionate for pixel perfect, minimal and easy to use interfaces.</p><a class="btn btn-light" role="button" href="portfolio.html">View portfolio</a></div>
-            </div>
-        </section>
-        <section class="portfolio-block photography">
-            <div class="container">
-                <div class="row no-gutters">
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image5.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/nature/image2.jpg"></a></div>
-                    <div class="col-md-6 col-lg-4 item zoom-on-hover"><a href="#"><img class="img-fluid image" src="assets/img/tech/image4.jpg"></a></div>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio-block call-to-action border-bottom">
-            <div class="container">
-                <div class="d-flex justify-content-center align-items-center content">
-                    <h3>Like what you see?</h3><button class="btn btn-outline-primary btn-lg" type="button">Hire me</button></div>
-            </div>
-        </section>
-        <section class="portfolio-block skills">
-            <div class="container">
-                <!-- Start: portfolio heading -->
-                <div class="heading">
-                    <h2>Special Skills</h2>
-                </div>
-                <!-- End: portfolio heading -->
-                <div class="row">
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Branding</h3>
-                                <p class="card-text">Create customised unique logos to represent the company culture , vision or ideals. Colour schemes that can suit the company's or product's &nbsp;goals and enhance the marketing strategies.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Interface Design</h3>
-                                <p class="card-text">Build user flows and provide smooth transition across features using iterative strategies. Creating UI components with latest design trends.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card special-skill-item border-0">
-                            <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
-                            <div class="card-body">
-                                <h3 class="card-title">Print Design</h3>
-                                <p class="card-text">Good with building custom graphic designs for business and events. &nbsp;Create print documents for business cards, brochures and product sheets.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <section class="portfolio-block website gradient">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-12 col-lg-5 offset-lg-1 text">
-                    <h3>Website Project</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eget velit ultricies, feugiat est sed, efr nunc, vivamus vel accumsan dui. Quisque ac dolor cursus, volutpat nisl vel, porttitor eros.</p>
-                </div>
-                <div class="col-md-12 col-lg-5">
-                    <div class="portfolio-laptop-mockup">
-                        <div class="screen">
-                            <div class="screen-content" style="background-image:url(&quot;assets/img/tech/image6.png&quot;);"></div>
-                        </div>
-                        <div class="keyboard"></div>
-                    </div>
+    <section id="identity">
+        <header class="sectionHeader">
+            <h1 class="mainhead">the Identity</h1>
+            <h4 class="subhead">evolution of the idea</h4>
+        </header><img class="identity" alt="identity-evolution" src="assets/img/Group%201037@2x.png"></section>
+    <section id="works">
+        <header class="sectionHeader">
+            <h1 class="mainhead">my designs</h1>
+            <h4 class="subhead">how i do it</h4>
+        </header>
+        <div class="gallery">
+            <div class="card" style="display:none">
+                <div class="card-body"><img src="assets/img/Yes-Creativity-Can-Be-Learned_V2-1.png">
+                    <h4 class="card-title">Title<a href="#"><i class="icon ion-android-open"></i></a></h4>
                 </div>
             </div>
         </div>
-        <div class="modal fade" role="dialog" tabindex="-1">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title">Modal Title</h4><button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button></div>
-                    <div class="modal-body">
-                        <p>The content of your modal.</p>
-                    </div>
-                    <div class="modal-footer"><button class="btn btn-light" type="button" data-dismiss="modal">Close</button><button class="btn btn-primary" type="button">Save</button></div>
-                </div>
+    </section>
+    <section id="resume">
+        <header class="sectionHeader">
+            <h1 class="mainhead">About me</h1>
+            <h4 class="subhead">who i am</h4>
+        </header>
+        <div class="resume">
+            <div class="details">
+                <h1 class="subhead">what I cAn dO</h1>
+                <p>Skilled and experienced to create Design system, UI Patterns, Visual design, User-centered design. Being able to create prototypes from scratch to fully designed web pages or apps for desktop and mobile.</p>
+                <h1 class="subhead">EXPERIENCE</h1>
+                <p class="timeline"><i class="icon ion-android-radio-button-on"></i>Currently at FE fundinfo Pvt ltd<br>(July 2019 – till date)<br>Senior UI Developer</p>
+                <p class="timeline"><i class="icon ion-android-arrow-up"></i>Currently at FE fundinfo Pvt ltd<br>(July 2019 – till date)<br>Senior UI Developer</p>
+                <p class="timeline"><i class="icon ion-android-arrow-up"></i>Currently at FE fundinfo Pvt ltd<br>(July 2019 – till date)<br>Senior UI Developer</p>
+                <p class="timeline"><i class="icon ion-android-arrow-up"></i>Currently at FE fundinfo Pvt ltd<br>(July 2019 – till date)<br>Senior UI Developer</p>
+                <p class="timeline"><i class="icon ion-android-arrow-up"></i>Currently at FE fundinfo Pvt ltd<br>(July 2019 – till date)<br>Senior UI Developer</p>
+                <h1 class="subhead">education</h1>
+                <p class="timeline"><i class="icon ion-android-arrow-up"></i>Currently at FE fundinfo Pvt ltd<br>(July 2019 – till date)<br>Senior UI Developer</p>
+                <p class="timeline"><i class="icon ion-android-arrow-up"></i>Currently at FE fundinfo Pvt ltd<br>(July 2019 – till date)<br>Senior UI Developer</p>
+                <p class="timeline"><i class="icon ion-android-arrow-up"></i>Currently at FE fundinfo Pvt ltd<br>(July 2019 – till date)<br>Senior UI Developer</p>
             </div>
+            <div class="details">
+                <h1 class="subhead">Professional Methods</h1>
+                <p>Able to provide excellent User Interface design and user centric solutions to client projects.</p>
+                <p>My speciality is creating wireframe mock ups from scratch on paper to establishing it into fully coded HTML pages suiting cross browsers. Highly skilled in Figma &amp; Adobe XD.<br></p>
+                <p>Skilled in artworks that include icon creation, logo designing, brochures, newsletters, posters, backdrops, vectors, business cards using Adode CC applications.<br></p>
+                <p>Highly experienced in creating web pages from scratch. Using HTML CSS3 and jquery. Able to bring about every latest trend on necessity.<br></p>
+                <p>Able to automate using Illustrator, saving huge amounts of time to create personalised in-vites, business cards and other printable or web related formats. Able to create vector based designs with ease to provide visual assistance to web
+                    backgrounds.<br></p>
+                <p>Self motivated and skilled in training and team management. I’ve conducted training ses-sions in Angular 2+. I’ve been able to make everyone understand the value and ease in component based front end design.<br></p>
+                <p>Good in collecting user surveys and project requirements. I’m able to analyse and visualise users point of view and prioritise design based on UX results rather than focusing on the mere completion of a project.<br></p>
+                <p>I’m able to keep up tight deadlines and work within the time scale. Good in adapting to technology and team members. I can communicate the issues and can take feedbacks.<br></p>
+                <h1 class="subhead">TECHNOLOGIES &amp; SOFTWARES</h1>
+                <p>HTML, CSS3, SASS, Javascript, Jquery, Bootstrap, Angular 2+ for<br>Front end development.<br></p>
+                <p>Adobe Photoshop, Illustrator, Animate CC for creating artworks for logo design, icons, web and print ads, animated html5 ads, brochures,&nbsp;newsletters and infographics.<br></p>
+                <p>Figma, Adobe XD for rapid prototyping.<br></p>
+                <p>Adobe Illustrator for automation.<br></p>
+                <p>PDF Reactor and Adobe Indesign for styling and creating PDF documents.<br></p><a class="btn btn-primary btn-lg text-left d-xl-flex download" role="button" style="color: #fff;" target="_blank" href="https://kousigan.github.io/inkjs/KousiganResume.pdf">Get my resume<i class="icon ion-document"></i></a></div>
         </div>
-    </section><script>
-
-     
-   
-   
- 
-</script>
-  
-    <footer class="page-footer">
-        <div class="container">
-            <div class="links"><a href="cv.html">About me</a><a href="portfolio.html">Portfolio</a><a href="hire-me.html">Hire me</a></div>
-            <div class="social-icons"><a href="https://instagram.com/inkstellar" target="_blank"><i class="fab fa-instagram"></i></a><a href="https://behance.net/inkstellar" target="_blank"><i class="fab fa-behance"></i></a></div>
-        </div>
-    </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </section>
+    <section id="contact" class="contact-clean" href="#">
+        <form class="text-left" data-bss-recipient="50552cee17e47470700768da628bf5c3" data-bss-subject="Requesting Inkstellar.com" title="trst">
+            <h4 class="text-left subhead">Let's discuss</h4>
+            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name" required=""></div>
+            <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Email" title="Enter a valid email" required=""></div>
+            <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+            <div class="form-group"><label>Pick a date to discuss</label><input class="form-control" type="date" name="date" plaeholder="Pick a date to discuss" value=" "></div>
+            <div class="form-group"><label class="uploadTitle" style="margin-right: 10px;">Attachments &nbsp;<small>&nbsp;* If required, Image files only</small></label><input type="file" id="sampleFiles" class="btn" style="margin: 0;" multiple="" accept="image/*"><label class="uploadIcon"
+                    style="margin-right: 10px;" for="sampleFiles">Upload files<i class="icon ion-ios-upload-outline"></i></label><label class="fileList" style="margin-right: 10px;" for="sampleFiles"></label></div>
+            <div class="form-group"><button class="btn btn-primary" type="submit">Send</button></div>
+        </form><label><a href="#landingpage" style="color: #fff;">Inkstellar.com</a></label></section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/inkScripts.js"></script>
 </body>
 
 </html>
