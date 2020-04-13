@@ -76,7 +76,7 @@ section {
 .card {
   /*width: 30%;*/
   margin: 0 0 10px;
-  display:table;
+  display:inline-block;
   /*flex-direction: row;*/
 }
 
