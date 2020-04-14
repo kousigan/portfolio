@@ -87,8 +87,12 @@ section {
   object-fit: cover;
 }
 
-.card-body img.preloader {
-  width: 20%;
+.card-body .preloader {
+  width: auto;
+  height: 200px;
+  display: block;
+  background: url('../../inkloader.svg') no-repeat center;
+  background-size: 150px;
   margin: 50px;
 }
 

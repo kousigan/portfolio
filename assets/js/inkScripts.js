@@ -26,15 +26,16 @@ function getData(){
             let galleryItem =`
 <div class="card ">
   <div class="card-body">
-  <img class="preloader" src="./inkloader.svg">
-    <img class="card-img-top scale-on-hover" src="${data.projects[i].image}" alt="${data.projects[i].name} " data-toggle="modal" data-target="#test" />
+  <span class="preloader"></span>
+    <img class="card-img-top scale-on-hover" src="${data.projects[i].image}" alt="${data.projects[i].name} " data-toggle="modal" data-target="#" />
            <h5 class="card-title">${data.projects[i].name}<a target="_blank" title="View on Behance"  href="${data.projects[i].link}"><i class="icon ion-android-open"></i></a></h5>
         </div>
 </div>`;
             $('.gallery').append(galleryItem);
            
         }
-        ImageFunctions.imgLoader();
+        // ImageFunctions.imgLoader();
+        imgLoader();
     });
  }
     
@@ -72,34 +73,45 @@ function onScroll(event){
 window.document.addEventListener('scroll', onScroll );
 
 // Img loader
+ var imgLoader = function(){
+ 	var i=0;
+$('.card-img-top').each(function(){
+ 
+
+	$(this).prev().hide();
+console.log('loading success!!',this);
+
+
+ });
+};
 
  
-ImageFunctions = {
-	imgLoader: function() {
+// ImageFunctions = {
+// 	imgLoader: function() {
 		
   
-  $(".card-body").imagesStatus({
+//   $(".card-body").imagesStatus({
 
-    imgLoaded: function(img){
-        console.log(this.status.loaded);
-        console.log(img);
-        $(".preloader").hide();
+//     imgLoaded: function(img){
+//         console.log(this.status );
+//         console.log(img);
         
-    },
+        
+//     },
 
-    imgFailed: function(img){
-        console.log(this.status.failed);
-        console.log("-------failed---------------");
-        console.log(img);
-        console.log("-----------------------------");
-    },
+//     imgFailed: function(img){
+//         console.log(this.status.failed);
+//         console.log("-------failed---------------");
+//         console.log(img);
+//         console.log("-----------------------------");
+//     },
 
-    allImgFinished: function(container){
-        console.log("all images loaded");
-        console.log(this.status.loaded + " images loaded, " + this.status.failed + " images failed!");
-    }
+//     allImgFinished: function(container){
+//         console.log("all images loaded");
+//         console.log(this.status.loaded + " images loaded, " + this.status.failed + " images failed!");
+//     }
 
-  });
-  return;
-}
-}
+//   });
+//   return;
+// }
+// }

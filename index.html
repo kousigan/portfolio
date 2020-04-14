@@ -42,8 +42,8 @@
                 <div class="col-md-8" id="header-main">
                     <div class="header-section"><img class="logo" src="assets/img/Group%201021@2x.png" alt="Inkstellar">
                         <p style="font-size: 20px;">Hello, I'm</p>
-                        <h1 class="mainhead" style="/*font-family: 'Roboto Condensed', sans-serif;*//*font-size: 130px;*//*letter-spacing: -5px;*//*font-weight: bold;*//*color: #C3DBDC;*//*text-indent: -8px;*/">KOUSIGAN</h1>
-                        <h4 class="subhead" style="/*font-family: 'Roboto Condensed', sans-serif;*//*color: rgba(146,146,146,0.52);*//*font-size: 30px;*/">UI/UX DESIGNER</h4>
+                        <h1 class="mainhead"></h1>
+                        <h4 class="subhead">UI/UX DESIGNER</h4>
                     </div><a class="btn" role="button" style="align-self: center;" href="#identity"><i class="icon ion-android-arrow-down" data-bs-hover-animate="bounce"></i></a></div>
             </div>
         </div>
@@ -144,8 +144,22 @@
 
     <script src="assets/js/smart-forms.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
+<script src="assets/js/jquery.typist.js"></script>
+<script>
+
+	jQuery(function($) {
+		$('.landingPage .mainhead')
+			.typist({
+				text: 'Inkstellar'
+			})
+			.typistPause(2000) // 2 sec
+			.typistRemove(23)
+			.typistAdd('Kousigan')
+			.typistStop()
+	});
 
 
+</script>
 </body>
 
 </html>
