@@ -24,11 +24,7 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 766px) {
-  .mainhead {
-    font-size: 100px;
-  }
-}
+
 
 .subhead {
   font-family: 'Roboto Condensed', sans-serif;
@@ -57,7 +53,20 @@ body {
   text-align: center;
   width: 100%;
 }
-
+@media (max-width: 766px) {
+  .mainhead {
+    font-size: 7em
+  }
+ 
+} 
+@media (max-width: 540px) {
+  .mainhead {
+    font-size: 5em
+  }
+  .sectionHeader .subhead{
+    bottom: 0;
+  }
+} 
 section {
   text-align: center;
   min-height: 100vh;
