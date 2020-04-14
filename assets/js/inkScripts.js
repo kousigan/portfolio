@@ -74,7 +74,7 @@ window.document.addEventListener('scroll', onScroll );
 
 // Img loader
  var imgLoader = function(){
- 	var i=0;
+  
 $('.card-img-top').each(function(){
  
 
