@@ -76,6 +76,36 @@ section {
   justify-content: center;
 }
 
+ 
+.contactContainer {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    width: 100%;
+    max-width: 1200px;
+  margin: 0 auto;
+}
+
+.social p a{
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.social{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+@media screen and (max-width:800px){
+  .contactContainer{
+    grid-template-columns: 1fr;
+  }
+  .social div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 .identity {
   width: 94%;
   height: 335px;
@@ -166,6 +196,8 @@ section {
 
 .btn.download i {
   padding: 0 0 0 10px;
+  position: relative;
+  top: 3px;
 }
 
 .timeline i {
@@ -176,12 +208,13 @@ section {
 .timeline:before {
   content: "";
   width: 1pt;
-  height: 100%;
+  height: auto;
   display: block;
   position: absolute;
-  background: #000;
+  background: #d33178;
   left: 19px;
-  top: 17px;
+  top: 21px;
+  bottom: 0;
 }
 
 .col-md-4.landingbg img {
@@ -233,8 +266,12 @@ section {
   background: #ededed;
   color: #d33178;
   border-radius: 4px;
+  /*! display: block; */
 }
-
+.fileList{
+  display: block;
+  margin-bottom: 0;
+}
 .contact-clean form .btn {
   padding: 16px 32px;
   border: none;
@@ -254,7 +291,7 @@ section {
   .landingbg {
     display: none;
   }
-}
+} 
 
 @media (max-width:766px) {
   .header-section {
@@ -309,17 +346,17 @@ aside ul li a{
 }
 aside ul li.medium a:before{
   font-size: 12px;
-  opacity: 0.7;
+  opacity: 0.7; 
 }
 aside ul li a:before{
-  font-family: Ionicons;
+  font-family: lineicons;
   font-size: 8px;
-  content:"\f3a6";
+  content:"\ea60";
   opacity: 0.5;
   transition: all 0.2s ease-in;
 }
 aside ul li a.active:before{
-    content:"\f360";
+    content:"\ea59";
     font-size: 14px;
     opacity: 1;
 }
