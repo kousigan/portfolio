@@ -28,7 +28,7 @@ function getData(){
   <div class="card-body">
   <span class="preloader"></span>
     <img class="card-img-top scale-on-hover" src="${data.projects[i].image}" alt="${data.projects[i].name} " data-toggle="modal" data-target="#" />
-           <h5 class="card-title">${data.projects[i].name}<a target="_blank" title="View on Behance"  href="${data.projects[i].link}"><i class="icon ion-android-open"></i></a></h5>
+           <h5 class="card-title">${data.projects[i].name}<a target="_blank" title="View on Behance"  href="${data.projects[i].link}"><i class="lni lni-arrow-top-right"></i></a></h5>
         </div>
 </div>`;
             $('.gallery').append(galleryItem);
