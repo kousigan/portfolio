@@ -97,13 +97,13 @@ section {
   margin: 50px 0;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:768px){
   .contactContainer{
     grid-template-columns: 1fr;
   }
   .social div{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 .identity {
@@ -366,13 +366,14 @@ aside ul li a.active:before{
     column-count: 2;
   }
 }
-
+@media (max-width: 768px) {
+  aside{
+    display: none;
+  }
+}
 @media (max-width: 640px) {
   .gallery {
     column-count: 1;
-  }
-  aside{
-    display: none;
   }
 }
 
