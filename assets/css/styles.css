@@ -23,7 +23,9 @@
   color: #C3DBDC;
   text-transform: uppercase;
 }
-
+#header-main   .mainhead span:nth-child(2){
+  color: #d33178 !important;
+}
 
 
 .subhead {

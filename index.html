@@ -159,18 +159,22 @@
     <script src="assets/js/bs-init.js"></script>
 <script src="assets/js/jquery.typist.js"></script>
 <script>
-
-	jQuery(function($) {
-		$('.landingPage .mainhead')
+    var looper = function() {
+ 		$('.landingPage .mainhead')
 			.typist({
 				text: 'Inkstellar'
 			})
 			.typistPause(2000) // 2 sec
 			.typistRemove(23)
 			.typistAdd('Kousigan')
-			.typistStop()
-    });
-    
+			.typistStop();
+     };
+ looper();
+ setInterval(()=>{
+    $('.landingPage .mainhead span').remove();
+     looper();
+ },15000);
+
 $(document).ready(function(){
   $('[data-toggle="tooltip"]').tooltip();   
 });
