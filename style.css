@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: rgb(249, 247, 239);
+  font-family: Roboto;
+  color: slategray;
+  font-size: 18px;
+  margin: 0;
+}
+body.darkmode {
+  background: rgb(39, 39, 39);
+}
+body .container {
+  display: none;
+}
+body.unleashed .container {
+  display: initial;
+}
+body.unleashed .preloader {
+  display: none !important;
+}
+.page1 {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  align-items: center;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: Prata;
+}
+u {
+  text-decoration-color: darkturquoise;
+}
+body.darkmode h1:hover,
+body.darkmode h2:hover,
+body.darkmode h3:hover,
+body.darkmode h4:hover,
+body.darkmode li:hover,
+body.darkmode p:hover,
+body.darkmode summary:hover {
+  color: rgb(215, 223, 226);
+}
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+li:hover,
+p:hover,
+summary:hover {
+  color: rgb(16, 25, 29);
+}
+.typed-cursor {
+  font-size: 32px;
+}
+.typed_ {
+  display: flex;
+  align-items: center;
+  min-height: 200px;
+}
+a {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid lightgray;
+  color: gray;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  align-items: center;
+}
+a .lni {
+  height: 18px;
+  color: lightgray;
+  padding-right: 5px;
+}
+.links {
+  display: flex;
+}
+a:hover {
+  border-color: black;
+  color: black;
+}
+a:hover .lni {
+  color: black;
+}
+.darkmode a {
+  color: white;
+  border-color: darkslategray;
+}
+.darkmode a:hover {
+  color: white;
+  border-color: white;
+}
+.darkmode a:hover .lni {
+  color: white;
+}
+.content {
+  width: auto;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 0 16px;
+}
+
+details li {
+  padding: 8px 0;
+}
+@keyframes expand {
+  0% {
+    margin-top: -10px;
+  }
+  100% {
+    margin: 0;
+  }
+}
+details[open] ul li {
+  animation: expand 0.4s;
+}
+
+details {
+  padding-bottom: 20px;
+}
+.content h3 {
+  margin-top: 3em;
+}
+.tags span {
+  padding: 10px;
+  background: #eeece7;
+  border: 1px solid #eeece7;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+.darkmode .tags span {
+  background: #333232;
+  border-color: #333232;
+}
+.tags span:hover {
+  border: 1px solid gray;
+}
+.footer {
+  padding: 2em 0;
+}
+
+details:hover summary:after {
+  content: 'Expand';
+}
+
+details[open]:hover summary:after {
+  content: '';
+}
+.sticky {
+  position: fixed;
+  right: 0;
+  top: 10px;
+}
+
+u {
+  white-space: nowrap;
+}
